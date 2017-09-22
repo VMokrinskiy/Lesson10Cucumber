@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506009105163" stop="1506009134404" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Example feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1506009105199" stop="1506009126575" status="passed">
+            <name>Log in  Yandex</name>
+            <title>Log in  Yandex</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1506009105209" stop="1506009118433" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506009118433" stop="1506009121796" status="passed">
+                    <name>When I type login riddler1391 and password 1234Qwer</name>
+                    <title>When I type login riddler1391 and password 1234Qwer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506009121796" stop="1506009126573" status="passed">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                    <attachments>
+                        <attachment title="Message" source="759c1fb7-df0f-4812-afdb-1ff6f8eb3676-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Log in  Yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="7416@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1506009126584" stop="1506009128341" status="broken">
+            <name>Log in  Yandex</name>
+            <title>Log in  Yandex</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='login']"}
+  (Session info: chrome=61.0.3163.91)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'VMokrinskiy', ip: '192.168.100.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\VMOKRI~1\AppData\Local\Temp\scoped_dir9728_17420}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.91, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 421fb70f43464ef4db46a7ffe830250e
+*** Element info: {Using=xpath, value=//input[@name='login']}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='login']"}
+  (Session info: chrome=61.0.3163.91)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'VMokrinskiy', ip: '192.168.100.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\VMOKRI~1\AppData\Local\Temp\scoped_dir9728_17420}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.91, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 421fb70f43464ef4db46a7ffe830250e
+*** Element info: {Using=xpath, value=//input[@name='login']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at lesson10.steps.ExampleSteps.inputUserName(ExampleSteps.java:24)
+	at ✽.When I type login asdsad and password asdasdd(src/test/resources/features/example.feature:7)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1506009126584" stop="1506009128243" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                </step>
+                <step start="1506009128244" stop="1506009128337" status="broken">
+                    <name>When I type login asdsad and password asdasdd</name>
+                    <title>When I type login asdsad and password asdasdd</title>
+                </step>
+                <step start="1506009128337" stop="1506009128341" status="canceled">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Log in  Yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="7416@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1506009128343" stop="1506009134395" status="passed">
+            <name>search yandex</name>
+            <title>search yandex</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1506009128343" stop="1506009129850" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506009129852" stop="1506009130097" status="passed">
+                    <name>When I type word asdasd</name>
+                    <title>When I type word asdasd</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506009130097" stop="1506009134395" status="passed">
+                    <name>Then I press "Find" and close browser</name>
+                    <title>Then I press "Find" and close browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="search yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="7416@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Example feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

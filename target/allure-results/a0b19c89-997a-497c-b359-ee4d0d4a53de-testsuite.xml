@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506078604348" stop="1506078618749" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Example feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1506078604381" stop="1506078615537" status="broken">
+            <name>Log in  Yandex</name>
+            <title>Log in  Yandex</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at lesson10.steps.ExampleSteps.inputUserName(ExampleSteps.java:23)
+	at ✽.When I type login riddler1391 and password 1234Qwer(src/test/resources/features/example.feature:6)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1506078604386" stop="1506078615516" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                </step>
+                <step start="1506078615517" stop="1506078615534" status="broken">
+                    <name>When I type login riddler1391 and password 1234Qwer</name>
+                    <title>When I type login riddler1391 and password 1234Qwer</title>
+                </step>
+                <step start="1506078615535" stop="1506078615536" status="canceled">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Log in  Yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="204@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1506078615589" stop="1506078618745" status="broken">
+            <name>search yandex</name>
+            <title>search yandex</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at lesson10.steps.ExampleSteps.inputSearchWord(ExampleSteps.java:38)
+	at ✽.When I type word asdasd(src/test/resources/features/example.feature:12)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1506078615590" stop="1506078618744" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                </step>
+                <step start="1506078618744" stop="1506078618745" status="broken">
+                    <name>When I type word asdasd</name>
+                    <title>When I type word asdasd</title>
+                </step>
+                <step start="1506078618745" stop="1506078618745" status="canceled">
+                    <name>Then I press "Find" and close browser</name>
+                    <title>Then I press "Find" and close browser</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="search yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="204@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Example feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506078511845" stop="1506078536924" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Example feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1506078511871" stop="1506078530675" status="passed">
+            <name>Log in  Yandex</name>
+            <title>Log in  Yandex</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1506078511875" stop="1506078522954" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506078522954" stop="1506078525049" status="passed">
+                    <name>When I type login riddler1391 and password 1234Qwer</name>
+                    <title>When I type login riddler1391 and password 1234Qwer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506078525049" stop="1506078530673" status="passed">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Log in  Yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="1056@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1506078530892" stop="1506078536915" status="passed">
+            <name>search yandex</name>
+            <title>search yandex</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1506078530892" stop="1506078532263" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506078532264" stop="1506078532717" status="passed">
+                    <name>When I type word asdasd</name>
+                    <title>When I type word asdasd</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506078532717" stop="1506078536915" status="passed">
+                    <name>Then I press "Find" and close browser</name>
+                    <title>Then I press "Find" and close browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="search yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="1056@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Example feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506003117707" stop="1506003133042" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Example feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1506003117730" stop="1506003131601" status="broken">
+            <name>Log in  Yandex</name>
+            <title>Log in  Yandex</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at lesson10.steps.Initialization.input(Initialization.java:59)
+	at lesson10.steps.ExampleSteps.inputUserName(ExampleSteps.java:22)
+	at ✽.When I type login &lt;login&gt;(src/test/resources/features/example.feature:7)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1506003117733" stop="1506003131581" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                </step>
+                <step start="1506003131581" stop="1506003131598" status="broken">
+                    <name>When I type login &lt;login&gt;</name>
+                    <title>When I type login &lt;login&gt;</title>
+                </step>
+                <step start="1506003131598" stop="1506003131600" status="canceled">
+                    <name>And password &lt;password&gt;</name>
+                    <title>And password &lt;password&gt;</title>
+                </step>
+                <step start="1506003131600" stop="1506003131600" status="canceled">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Log in  Yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="5192@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1506003131624" stop="1506003133040" status="broken">
+            <name>search yandex</name>
+            <title>search yandex</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at lesson10.steps.Initialization.input(Initialization.java:59)
+	at lesson10.steps.ExampleSteps.inputSearchWord(ExampleSteps.java:40)
+	at ✽.When I type word asdasd(src/test/resources/features/example.feature:13)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1506003131624" stop="1506003133034" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                </step>
+                <step start="1506003133038" stop="1506003133039" status="broken">
+                    <name>When I type word asdasd</name>
+                    <title>When I type word asdasd</title>
+                </step>
+                <step start="1506003133039" stop="1506003133039" status="canceled">
+                    <name>Then I press "Find"</name>
+                    <title>Then I press "Find"</title>
+                </step>
+                <step start="1506003133040" stop="1506003133040" status="canceled">
+                    <name>And close browser</name>
+                    <title>And close browser</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="search yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="5192@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Example feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

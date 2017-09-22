@@ -1,0 +1,120 @@
+{
+  "uid" : "ca4ea6475183c532",
+  "name" : "Log in  Yandex",
+  "fullName" : "Example feature.Log in  Yandex",
+  "historyId" : "6b93748153dd771442f82108b04e18bc",
+  "time" : {
+    "start" : 1506000425267,
+    "stop" : 1506000443461,
+    "duration" : 18194
+  },
+  "status" : "passed",
+  "description" : "\n\n",
+  "descriptionHtml" : "",
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I go to https://www.yandex.ru/",
+      "time" : {
+        "start" : 1506000425272,
+        "stop" : 1506000436611,
+        "duration" : 11339
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "When I type login riddler1391",
+      "time" : {
+        "start" : 1506000436611,
+        "stop" : 1506000438276,
+        "duration" : 1665
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "And password 1234Qwer",
+      "time" : {
+        "start" : 1506000438277,
+        "stop" : 1506000438477,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I should go to home page",
+      "time" : {
+        "start" : 1506000438477,
+        "stop" : 1506000443460,
+        "duration" : 4983
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e46d67ba4c83eca",
+        "name" : "Message",
+        "source" : "6e46d67ba4c83eca.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ]
+    } ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 4
+  },
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Example feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "VMokrinskiy"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Log in  Yandex"
+  }, {
+    "name" : "thread",
+    "value" : "11732@VMokrinskiy.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Example feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Example feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log in  Yandex"
+  }, {
+    "name" : "package",
+    "value" : "Example feature"
+  } ],
+  "parameters" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

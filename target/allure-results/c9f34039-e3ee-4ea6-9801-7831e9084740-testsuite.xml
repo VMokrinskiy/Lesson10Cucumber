@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506007804756" stop="1506007824703" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Example feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1506007804810" stop="1506007817867" status="pending">
+            <name>Log in  Yandex</name>
+            <title>Log in  Yandex</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1506007804816" stop="1506007817859" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                </step>
+                <step start="1506007817860" stop="1506007817862" status="canceled">
+                    <name>I type login riddler1391 and password 1234Qwer</name>
+                    <title>I type login riddler1391 and password 1234Qwer</title>
+                </step>
+                <step start="1506007817865" stop="1506007817866" status="canceled">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Log in  Yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="7024@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1506007817890" stop="1506007819695" status="pending">
+            <name>Log in  Yandex</name>
+            <title>Log in  Yandex</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1506007817890" stop="1506007819694" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                </step>
+                <step start="1506007819695" stop="1506007819695" status="canceled">
+                    <name>I type login asdsad and password asdasdd</name>
+                    <title>I type login asdsad and password asdasdd</title>
+                </step>
+                <step start="1506007819695" stop="1506007819695" status="canceled">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Log in  Yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="7024@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1506007819696" stop="1506007824568" status="passed">
+            <name>search yandex</name>
+            <title>search yandex</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1506007819696" stop="1506007820354" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506007820355" stop="1506007820556" status="passed">
+                    <name>When I type word asdasd</name>
+                    <title>When I type word asdasd</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506007820558" stop="1506007822406" status="passed">
+                    <name>Then I press "Find"</name>
+                    <title>Then I press "Find"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506007822406" stop="1506007824568" status="passed">
+                    <name>And close browser</name>
+                    <title>And close browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="search yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="7024@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Example feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

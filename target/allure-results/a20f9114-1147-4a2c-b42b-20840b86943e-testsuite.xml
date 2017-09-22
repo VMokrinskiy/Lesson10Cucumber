@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506009185543" stop="1506009213501" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Example feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1506009185577" stop="1506009213495" status="passed">
+            <name>search yandex</name>
+            <title>search yandex</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1506009185582" stop="1506009199702" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506009199703" stop="1506009201426" status="passed">
+                    <name>When I type login riddler1391 and password 1234Qwer</name>
+                    <title>When I type login riddler1391 and password 1234Qwer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506009201426" stop="1506009207369" status="passed">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                    <attachments>
+                        <attachment title="Message" source="79043b8d-1cc8-4258-9fcc-d7db77728f1e-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1506009207369" stop="1506009208917" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506009208917" stop="1506009209188" status="passed">
+                    <name>When I type word asdasd</name>
+                    <title>When I type word asdasd</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506009209188" stop="1506009213489" status="passed">
+                    <name>Then I press "Find" and close browser</name>
+                    <title>Then I press "Find" and close browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="search yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="9664@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Example feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

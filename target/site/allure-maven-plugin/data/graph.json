@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3393d318fb3a68e1",
+  "name" : "search yandex",
+  "time" : {
+    "start" : 1506000443469,
+    "stop" : 1506000449408,
+    "duration" : 5939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca4ea6475183c532",
+  "name" : "Log in  Yandex",
+  "time" : {
+    "start" : 1506000425267,
+    "stop" : 1506000443461,
+    "duration" : 18194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

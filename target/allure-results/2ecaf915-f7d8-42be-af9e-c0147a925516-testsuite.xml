@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506005457772" stop="1506005484953" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Example feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1506005457818" stop="1506005477988" status="failed">
+            <name>Log in  Yandex</name>
+            <title>Log in  Yandex</title>
+            <description type="text"></description>
+            <failure>
+                <message>ComparisonFailure: expected:&lt;https://[passport.yandex.ru/passport?mode=auth&amp;retpath=https://mail.yandex.ru]&gt; but was:&lt;https://[mail.yandex.ru/]&gt;</message>
+                <stack-trace>org.junit.ComparisonFailure: expected:&lt;https://[passport.yandex.ru/passport?mode=auth&amp;retpath=https://mail.yandex.ru]&gt; but was:&lt;https://[mail.yandex.ru/]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at lesson10.steps.ExampleSteps.getToHomePage(ExampleSteps.java:35)
+	at ✽.Then I should go to home page(src/test/resources/features/example.feature:9)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1506005457822" stop="1506005473178" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                </step>
+                <step start="1506005473178" stop="1506005475017" status="passed">
+                    <name>When I type login &lt;login&gt;</name>
+                    <title>When I type login &lt;login&gt;</title>
+                </step>
+                <step start="1506005475018" stop="1506005475619" status="passed">
+                    <name>And password &lt;password&gt;</name>
+                    <title>And password &lt;password&gt;</title>
+                </step>
+                <step start="1506005475619" stop="1506005477986" status="failed">
+                    <name>Then I should go to home page</name>
+                    <title>Then I should go to home page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Log in  Yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="10180@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1506005478002" stop="1506005484817" status="passed">
+            <name>search yandex</name>
+            <title>search yandex</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1506005478002" stop="1506005479926" status="passed">
+                    <name>Given I go to https://www.yandex.ru/</name>
+                    <title>Given I go to https://www.yandex.ru/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506005479928" stop="1506005480328" status="passed">
+                    <name>When I type word asdasd</name>
+                    <title>When I type word asdasd</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506005480328" stop="1506005482436" status="passed">
+                    <name>Then I press "Find"</name>
+                    <title>Then I press "Find"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506005482436" stop="1506005484817" status="passed">
+                    <name>And close browser</name>
+                    <title>And close browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="search yandex"/>
+                <label name="feature" value="Example feature"/>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="10180@VMokrinskiy.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Example feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

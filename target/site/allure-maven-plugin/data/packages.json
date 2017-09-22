@@ -1,0 +1,62 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 5939,
+    "maxDuration" : 18194,
+    "sumDuration" : 24133,
+    "start" : 1506000425267,
+    "stop" : 1506000449408,
+    "duration" : 24141
+  },
+  "children" : [ {
+    "uid" : "43c29d016f2dad78",
+    "name" : "Example feature",
+    "time" : {
+      "minDuration" : 5939,
+      "maxDuration" : 18194,
+      "sumDuration" : 24133,
+      "start" : 1506000425267,
+      "stop" : 1506000449408,
+      "duration" : 24141
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "3393d318fb3a68e1",
+      "name" : "search yandex",
+      "time" : {
+        "start" : 1506000443469,
+        "stop" : 1506000449408,
+        "duration" : 5939
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "ca4ea6475183c532",
+      "name" : "Log in  Yandex",
+      "time" : {
+        "start" : 1506000425267,
+        "stop" : 1506000443461,
+        "duration" : 18194
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

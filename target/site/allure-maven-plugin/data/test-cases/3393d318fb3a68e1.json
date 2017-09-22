@@ -1,0 +1,114 @@
+{
+  "uid" : "3393d318fb3a68e1",
+  "name" : "search yandex",
+  "fullName" : "Example feature.search yandex",
+  "historyId" : "9bd98a52f945c304bcf432f0d927d523",
+  "time" : {
+    "start" : 1506000443469,
+    "stop" : 1506000449408,
+    "duration" : 5939
+  },
+  "status" : "passed",
+  "description" : "\n\n",
+  "descriptionHtml" : "",
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I go to https://www.yandex.ru/",
+      "time" : {
+        "start" : 1506000443469,
+        "stop" : 1506000444989,
+        "duration" : 1520
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "When I type word asdasd",
+      "time" : {
+        "start" : 1506000444989,
+        "stop" : 1506000445159,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I press \"Find\"",
+      "time" : {
+        "start" : 1506000445159,
+        "stop" : 1506000447231,
+        "duration" : 2072
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "And close browser",
+      "time" : {
+        "start" : 1506000447232,
+        "stop" : 1506000449408,
+        "duration" : 2176
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4
+  },
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Example feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "VMokrinskiy"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "search yandex"
+  }, {
+    "name" : "thread",
+    "value" : "11732@VMokrinskiy.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Example feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Example feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "search yandex"
+  }, {
+    "name" : "package",
+    "value" : "Example feature"
+  } ],
+  "parameters" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}
